@@ -1,34 +1,41 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 /*header*/
-.logo{
+.logo {
     box-shadow: black 3px 3px 3px;
 }
-.logo img{
+
+.logo img {
 
     width: 200px;
     height: auto;
 }
-.login, .su{
+
+.login,
+.su {
     border: black 1px solid;
     padding: 15px;
     float: right;
     border-radius: 10%;
     box-shadow: black 3px 3px;
 }
-.login{
+
+.login {
     position: relative;
     right: 0px;
 }
-.su{
+
+.su {
     position: relative;
     top: 0;
     right: 0;
 }
+
 /*footer*/
-footer{
+footer {
     position: absolute;
     right: 45%;
     bottom: 0%;

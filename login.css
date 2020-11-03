@@ -1,14 +1,17 @@
 /*reset*/
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 /*login*/
-#login{
+#login {
     width: 250px;
     height: 200px;
 }
-input[type=text], input[type=password] {
+
+input[type=text],
+input[type=password] {
     width: 250px;
     padding: 12px 20px;
     margin: 8px 0;
@@ -16,6 +19,7 @@ input[type=text], input[type=password] {
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
+
 button {
     background-color: #4CAF50;
     color: white;
@@ -25,30 +29,36 @@ button {
     cursor: pointer;
     width: 250px;
 }
+
 button:hover {
     opacity: 0.8;
 }
-.title{
+
+.title {
     position: absolute;
     top: -25%;
     left: 20%;
 }
-#login{
+
+#login {
     position: absolute;
     left: 45%;
     top: 45%;
 }
+
 /*header*/
-.logo{
+.logo {
     box-shadow: black 3px 3px 3px;
 }
-.logo img{
+
+.logo img {
 
     width: 200px;
     height: auto;
 }
+
 /*footer*/
-footer{
+footer {
     position: absolute;
     right: 45%;
     bottom: 0%;
