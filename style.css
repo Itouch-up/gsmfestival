@@ -1,42 +1,45 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /*header*/
 .logo {
-    box-shadow: black 3px 3px 3px;
+  -webkit-box-shadow: black 3px 3px 3px;
+          box-shadow: black 3px 3px 3px;
 }
 
 .logo img {
-
-    width: 200px;
-    height: auto;
+  width: 200px;
+  height: auto;
 }
 
 .login,
 .su {
-    border: black 1px solid;
-    padding: 15px;
-    float: right;
-    border-radius: 10%;
-    box-shadow: black 3px 3px;
+  border: black 1px solid;
+  padding: 15px;
+  float: right;
+  border-radius: 10%;
+  -webkit-box-shadow: black 3px 3px;
+          box-shadow: black 3px 3px;
+  color: black;
 }
 
 .login {
-    position: relative;
-    right: 0px;
+  position: relative;
+  right: 0px;
 }
 
 .su {
-    position: relative;
-    top: 0;
-    right: 0;
+  position: relative;
+  top: 0;
+  right: 0;
 }
 
 /*footer*/
 footer {
-    position: absolute;
-    right: 45%;
-    bottom: 0%;
+  position: absolute;
+  right: 45%;
+  bottom: 0%;
 }
+/*# sourceMappingURL=style.css.map */
