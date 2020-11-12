@@ -17,9 +17,10 @@
 /*article*/
 form {
   display: inline-block;
+  position: relative;
   border: 1px solid;
-  margin-left: 38vw;
-  margin-top: 6vw;
+  left: 38vw;
+  top: 20vh;
   padding: 50px;
   padding-top: 10vh;
   padding-bottom: 10vh;
